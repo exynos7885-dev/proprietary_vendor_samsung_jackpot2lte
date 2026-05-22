@@ -6,15 +6,107 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/jackpotlte
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000004.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
+    vendor/samsung/jackpotlte/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
+    vendor/samsung/jackpotlte/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/hw/audio.primary.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos7885.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/lib_SamsungRec_06004.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_06004.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libaboxpcmdump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaboxpcmdump.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libsamsungDiamondVoice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungDiamondVoice.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libskeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskeymaster.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/hw/camera.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos7885.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera3.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libhifills.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifills.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libhifills_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifills_interface.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_daemon.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libremosaic_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_tuning.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libskeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskeymaster.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniapi.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/0706000000000000000000000000004d.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/0706000000000000000000000000004d.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/08130000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/08130000000000000000000000000000.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000005.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000017.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000019.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000002e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000002e.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000002f.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000002f.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000030.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000030.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000038.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000038.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000041.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000045.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000045.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000059.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000059.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000060.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000060.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000045.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000045.drbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
+    vendor/samsung/jackpotlte/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
+    vendor/samsung/jackpotlte/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
+    vendor/samsung/jackpotlte/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
+    vendor/samsung/jackpotlte/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/Tfa9872.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/Tfa9872.cnt \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/calliope_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/calliope_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_sram.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/dbmd4_va_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dbmd4_va_fw.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/fimc_is_rta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_rta.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn81_firmware.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/setfile_2p6.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2p6.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/setfile_3p8sp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3p8sp.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/setfile_sr846_front.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_sr846_front.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/firmware/tfadsp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tfadsp.bin \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/hw/gatekeeper.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos7885.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/hw/sensors.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.exynos7885.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/hw/sound_trigger.primary.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.exynos7885.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libaudio_soundtrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_soundtrigger.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libdatamod.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdatamod.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudioinfo.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libskeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskeymaster3device.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/hw/gatekeeper.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos7885.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/hw/sensors.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.exynos7885.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libkeymaster_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_mdfpp.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libskeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskeymaster3device.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so
