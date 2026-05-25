@@ -533,7 +533,7 @@
 	</path>
 
 	<!-- call forwarding output volume -->
-	<path name="gain-call_forwarding_master">
+	<path name="gain-call_forwarding_primary">
 		<!-- we use default volume -->
 	</path>
 
@@ -1427,7 +1427,7 @@
 	</path>
 
 	<!-- call forwarding input volume -->
-	<path name="gain-call_forwarding_master-mic">
+	<path name="gain-call_forwarding_primary-mic">
 		<!-- we use default volume -->
 	</path>
 

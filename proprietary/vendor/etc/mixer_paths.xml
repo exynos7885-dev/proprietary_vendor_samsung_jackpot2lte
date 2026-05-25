@@ -760,7 +760,7 @@
 	</path>
 
 	<!-- call forwarding output -->
-	<path name="call_forwarding_master">
+	<path name="call_forwarding_primary">
 		<!-- AP Rx -> CP Tx -->
 		<ctl name="ABOX UAIF SPK0" value="SIFS0" />
 		<ctl name="ABOX NSRC1" value="UAIF1" />
@@ -1647,7 +1647,7 @@
 	</path>
 
 	<!-- call forwarding input -->
-	<path name="call_forwarding_master-mic">
+	<path name="call_forwarding_primary-mic">
 		<!-- CP Rx -> AP Tx -->
 		<ctl name="ABOX SPUS OUT6" value="SIFS0" />
 		<ctl name="ABOX SPUS OUT4" value="SIFS2" />
